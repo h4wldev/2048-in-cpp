@@ -1,6 +1,8 @@
 /*
 *  2048 puzzle game in c/c++
 *  Made by hawlkim of Korea Digital Media High School
+*
+*  Do not delete this comment
 */
 
 #include <stdio.h>
