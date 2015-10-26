@@ -120,7 +120,7 @@ void printNumber(int number, int x, int y) {
          SetColor(RED, WHITE);
          break;
    }
-   int len = ((int)log10(number) + 1 < 0) ? 1 : (int)log10(number) + 1;
+   int len = ((int)log10((double)number) + 1 < 0) ? 1 : (int)log10((double)number) + 1;
 
    gotoxy(x, y);
    printf("        ");
